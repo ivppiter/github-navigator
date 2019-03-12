@@ -1,0 +1,16 @@
+.commit-table {
+  width: 100vw;
+  min-height: 100vh
+}
+
+.commit-table .commit-author {
+  white-space: nowrap;
+}
+
+.commit-table tr:nth-child(even) {
+  background: #dbf0ff;
+}
+
+.commit-table tr:nth-child(odd) {
+  background: white;
+}
